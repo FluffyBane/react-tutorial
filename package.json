@@ -1,0 +1,27 @@
+{
+	"name": "tutorial",
+	"version": "0.1.0",
+	"description": "",
+	"license": "MIT",
+	"homepage": "https://fluffybane.github.io/react-tutorial",
+	"scripts": {
+		"start": "vite",
+		"build": "vite build",
+		"predeploy": "yarn build",
+		"deploy": "gh-pages -d dist"
+	},
+	"dependencies": {
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	},
+	"devDependencies": {
+		"babel-preset-nano-react-app": "^0.1.0",
+		"gh-pages": "^4.0.0",
+		"vite": "^2.6.7"
+	},
+	"babel": {
+		"presets": [
+			"nano-react-app"
+		]
+	}
+}
